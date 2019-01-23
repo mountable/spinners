@@ -1,0 +1,11 @@
+{
+  "name": "spinners",
+  "version": "0.0.1",
+  "description": "Pure css spinners",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knekki/spinners.git"
+  },
+  "author": "Kenneth Aamås",
+  "license": "MIT"
+}
