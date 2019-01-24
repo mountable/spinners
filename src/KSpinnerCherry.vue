@@ -16,7 +16,7 @@ export default {
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    background-image: radial-gradient(transparent 52%, currentColor 54%, currentColor 65%, transparent 67%);
+    background-image: radial-gradient(circle at center, transparent 52%, currentColor 54%, currentColor 65%, transparent 67%);
     background-repeat: no-repeat;
 
     animation-name: k-cherry;
