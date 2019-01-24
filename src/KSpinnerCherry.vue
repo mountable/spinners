@@ -10,7 +10,7 @@ export default {
 
 <style lang="scss">
 .k-spinner--cherry {
-    display: inline-block;
+    display: inline-flex;
     color: white;
     position: relative;
     width: 64px;
