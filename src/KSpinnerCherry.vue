@@ -9,12 +9,15 @@ export default {
 </script>
 
 <style lang="scss">
+$size: 64px;
+
 .k-spinner--cherry {
-    display: inline-flex;
+    display: inline-block;
     color: white;
+    font-size: $size;
     position: relative;
-    width: 64px;
-    height: 64px;
+    width: 1em;
+    height: 1em;
     border-radius: 50%;
     background-image: radial-gradient(circle at center, transparent 52%, currentColor 54%, currentColor 65%, transparent 67%);
     background-repeat: no-repeat;

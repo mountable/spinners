@@ -12,5 +12,12 @@
     "url": "https://github.com/knekki/spinners/issues"
   },
   "homepage": "https://github.com/knekki/spinners#readme",
-  "main": "src/index.js"
+  "main": "src/index.js",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-service": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.22"
+  }
 }
