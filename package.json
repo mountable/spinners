@@ -1,6 +1,6 @@
 {
   "name": "@knekk/spinners",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Pure css spinners made with simplicity in mind - Use directly as a single HTML element with the provided CSS, or import and use as a Vue component.",
   "repository": {
     "type": "git",
