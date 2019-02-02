@@ -8,6 +8,21 @@
 
 Pure CSS spinners made with simplicity in mind - Use directly as a single HTML element or import and use as a Vue component.
 
+<table>
+    <tbody>
+        <tr>
+            <td align="center">
+                <img width="382px" alt="KSpinnerSpin" src="https://i.giphy.com/media/tZq9n6oDD3efPsV9IJ/giphy.gif">
+            </td>
+            <td align="center">
+                <img width="382px" alt="KSpinnerPulse" src="https://i.giphy.com/media/1ZmUt4WnWv2QK18C5v/giphy.gif">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+> More spinners coming soon...
+
 ## Demo
 
 > Coming soon
@@ -20,10 +35,10 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
 
 ``` html
 <!-- Copy and paste the link below into your HTML head element -->
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.9/dist/kSpinners.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.10/dist/kSpinners.css">
 ```
 
-> **Tip:** If you only want to use one of the spinners, you can directly grap the appropriate CSS for it instead of including the whole library. See the advanced usage section...
+> **Tip:** This link will make all the spinners available to you. However, if you only want to use one of the spinners and care about filesize, it's recommended that you grap the CSS link specific to the spinner you choose. Swap `/kSpinners.css` part of the link with the name of the spinner. E.g if you want to use the `kSpinnerSpin` spinner. Change the link to `/kSpinnerSpin.css` etc.
 
 ### Vue.js
 
@@ -32,6 +47,29 @@ If you are using Vue.js, you can instead choose to install the npm package and s
 ``` bash
 # Install
 npm install @knekk/spinners
+```
+
+#### Global registration
+##### In your `main.js`
+
+``` javascript
+import Vue from 'vue'
+import KSpinners from './components/spinners'
+
+Vue.use(KSpinners)
+```
+
+#### Local registration in your components
+
+``` javascript
+import { KSpinnerSpin, KSpinnerPulse } from '@knekk/spinners'
+
+export default {
+    components: {
+        KSpinnerSpin,
+        KSpinnerPulse
+    }
+}
 ```
 
 ## Usage
@@ -47,19 +85,8 @@ npm install @knekk/spinners
 
 ### Vue.js
 
-#### Import and use directly in your components
-``` javascript
-import { KSpinnerSpin } from '@knekk/spinners'
-
-export default {
-    components: {
-        KSpinnerSpin
-    }
-}
-```
-
 ``` html
-<!-- In single-file components, string templates, and JSX -->
+<!-- In SFC, string templates, and JSX -->
 <KSpinnerSpin/>
 
 <!-- Or in DOM templates -->
