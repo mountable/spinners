@@ -12,10 +12,10 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
     <tbody>
         <tr>
             <td align="center">
-                <img width="382px" alt="KSpinnerSpin" src="https://i.giphy.com/media/tZq9n6oDD3efPsV9IJ/giphy.gif">
+                <img width="382px" alt="KSpinnerSpin" src="https://i.giphy.com/media/AS5tgT70cF9DGdJ832/giphy.gif">
             </td>
             <td align="center">
-                <img width="382px" alt="KSpinnerPulse" src="https://i.giphy.com/media/1ZmUt4WnWv2QK18C5v/giphy.gif">
+                <img width="382px" alt="KSpinnerPulse" src="https://i.giphy.com/media/1j9KYh5Cga05B4azN1/giphy.gif">
             </td>
         </tr>
     </tbody>
@@ -29,13 +29,13 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
 
 ## Installation
 
-*@knekk/spinners* doesn't need much of a setup. Just link the provided CSS in your HTML head element (or install via `npm`), and use it as an single HTML element. You can also import it and use it as a Vue component.
+`@knekk/spinners` doesn't need much of a setup. Just link the provided CSS in your HTML head element (or install via `npm`), and use it as an single HTML element. You can also import it and use it as a Vue component.
 
 ### HTML
 
 ``` html
 <!-- Copy and paste the link below into your HTML head element -->
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.10/dist/kSpinners.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.11/dist/kSpinners.css">
 ```
 
 > **Tip:** This link will make all the spinners available to you. However, if you only want to use one of the spinners and care about filesize, it's recommended that you grab the CSS link specific to the spinner you choose. Swap `/kSpinners.css` part of the link with the name of the spinner. E.g if you want to use the `kSpinnerSpin` spinner. Change the link to `/kSpinnerSpin.css` etc.
