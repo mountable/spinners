@@ -29,7 +29,7 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
 
 ## Installation
 
-*@knekk/spinners* doesn't need much of a setup. Just link the provided CSS in your HTML head element (or install via `npm`), and use it as an single HTML element. You can also import it and use it as a vue component.
+*@knekk/spinners* doesn't need much of a setup. Just link the provided CSS in your HTML head element (or install via `npm`), and use it as an single HTML element. You can also import it and use it as a Vue component.
 
 ### HTML
 
@@ -38,7 +38,7 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.10/dist/kSpinners.css">
 ```
 
-> **Tip:** This link will make all the spinners available to you. However, if you only want to use one of the spinners and care about filesize, it's recommended that you grap the CSS link specific to the spinner you choose. Swap `/kSpinners.css` part of the link with the name of the spinner. E.g if you want to use the `kSpinnerSpin` spinner. Change the link to `/kSpinnerSpin.css` etc.
+> **Tip:** This link will make all the spinners available to you. However, if you only want to use one of the spinners and care about filesize, it's recommended that you grab the CSS link specific to the spinner you choose. Swap `/kSpinners.css` part of the link with the name of the spinner. E.g if you want to use the `kSpinnerSpin` spinner. Change the link to `/kSpinnerSpin.css` etc.
 
 ### Vue.js
 
