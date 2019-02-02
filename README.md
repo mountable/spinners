@@ -4,7 +4,7 @@
     <a href="https://www.npmjs.com/package/@knekk/spinners"><img src="https://img.shields.io/npm/l/@knekk/spinners.svg" alt="License"></a>
 </p>
 
-# Pure css spinners
+# Pure CSS spinners
 
 Pure CSS spinners made with simplicity in mind - Use directly as a single HTML element or import and use as a Vue component.
 
@@ -20,7 +20,7 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
 
 ``` html
 <!-- Copy and paste the link below into your HTML head element -->
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.6/dist/kSpinners.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.9/dist/kSpinners.css">
 ```
 
 > **Tip:** If you only want to use one of the spinners, you can directly grap the appropriate CSS for it instead of including the whole library. See the advanced usage section...
