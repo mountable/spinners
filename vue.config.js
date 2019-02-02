@@ -1,9 +1,12 @@
 const pages = {
-    kSpinnerCherry: {
-        entry: 'src/KSpinnerCherry.vue'
+    kSpinners: {
+        entry: 'src/index.js'
     },
-    kSpinnerPeach: {
-        entry: 'src/KSpinnerPeach.vue'
+    kSpinnerSpin: {
+        entry: 'src/KSpinnerSpin.vue'
+    },
+    kSpinnerPulse: {
+        entry: 'src/KSpinnerPulse.vue'
     }
 }
 

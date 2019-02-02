@@ -1,17 +1,17 @@
 <template>
-    <i class="k-spinner--cherry"></i>
+    <i class="k-spinner--spin"></i>
 </template>
 
 <script>
 export default {
-    name: 'k-spinner-cherry'
+    name: 'k-spinner-spin'
 }
 </script>
 
 <style lang="scss">
 $size: 64px;
 
-.k-spinner--cherry {
+.k-spinner--spin {
     display: inline-block;
     color: white;
     font-size: $size;
@@ -22,7 +22,7 @@ $size: 64px;
     background-image: radial-gradient(circle at center, transparent 52%, currentColor 54%, currentColor 65%, transparent 67%);
     background-repeat: no-repeat;
 
-    animation-name: k-cherry;
+    animation-name: k-spin;
     animation-timing-function: linear;
     animation-duration: 6s;
     animation-delay: -500ms;
@@ -41,7 +41,7 @@ $size: 64px;
     @return $value;
 }
 
-@keyframes k-cherry {
+@keyframes k-spin {
     // Cubic-bezier: http://cubic-bezier.com/#.35,0,.25,1
     // https://docs.google.com/spreadsheets/d/1xbluxRx6d6FM6atu8ot-txJ6Rbef3p1sd-zargRsfU8/edit#gid=0
     $a: 0;

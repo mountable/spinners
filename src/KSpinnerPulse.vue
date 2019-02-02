@@ -1,10 +1,10 @@
 <template>
-    <i class="k-spinner--peach"></i>
+    <i class="k-spinner--pulse"></i>
 </template>
 
 <script>
 export default {
-    name: 'k-spinner-peach'
+    name: 'k-spinner-pulse'
 }
 </script>
 
@@ -12,8 +12,8 @@ export default {
 $animation-duration: 2.0s;
 $size: 64px;
 
-.k-spinner--peach {
-    @extend %peach;
+.k-spinner--pulse {
+    @extend %pulse;
     box-shadow: inset 0 0 1em 0 currentColor;
     display: inline-flex;
     font-size: $size;
@@ -23,22 +23,22 @@ $size: 64px;
     position: relative;
 
     &::before {
-        @extend %peach;
-        @extend %pseudo-peach;
+        @extend %pulse;
+        @extend %pseudo-pulse;
     }
 
     &::after {
-        @extend %peach;
-        @extend %pseudo-peach;
+        @extend %pulse;
+        @extend %pseudo-pulse;
         animation-delay: -($animation-duration/2);
     }
 }
 
-%peach {
+%pulse {
     border-radius: 50%;
 }
 
-%pseudo-peach {
+%pseudo-pulse {
     content: '';
     background-color: currentColor;
     position: absolute;
@@ -47,13 +47,13 @@ $size: 64px;
     height: 100%;
     width: 100%;
     opacity: 0.6;
-    animation-name: k-peach;
+    animation-name: k-pulse;
     animation-duration: $animation-duration;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes k-peach {
+@keyframes k-pulse {
     from, to {
         transform: scale(0);
     }
