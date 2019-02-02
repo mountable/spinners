@@ -12,10 +12,10 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
     <tbody>
         <tr>
             <td align="center">
-                <img width="382px" alt="KSpinnerSpin" src="https://i.giphy.com/media/AS5tgT70cF9DGdJ832/giphy.gif">
+                <img width="382px" alt="KSpinnerSpin" src="https://i.giphy.com/media/jxEXGryWlXoBCh29Pr/giphy.gif">
             </td>
             <td align="center">
-                <img width="382px" alt="KSpinnerPulse" src="https://i.giphy.com/media/1j9KYh5Cga05B4azN1/giphy.gif">
+                <img width="382px" alt="KSpinnerPulse" src="https://i.giphy.com/media/BWJpS0ih19nte89dwo/giphy.gif">
             </td>
         </tr>
     </tbody>
@@ -35,7 +35,7 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
 
 ``` html
 <!-- Copy and paste the link below into your HTML head element -->
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.11/dist/kSpinners.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.12/dist/kSpinners.css">
 ```
 
 > **Tip:** This link will make all the spinners available to you. However, if you only want to use one of the spinners and care about filesize, it's recommended that you grab the CSS link specific to the spinner you choose. Swap `/kSpinners.css` part of the link with the name of the spinner. E.g if you want to use the `kSpinnerSpin` spinner. Change the link to `/kSpinnerSpin.css` etc.
