@@ -6,7 +6,7 @@
 
 # Pure CSS spinners
 
-Pure CSS spinners made with simplicity in mind - Use directly as a single HTML element or import and use as a Vue component.
+Pure CSS spinners made with simplicity in mind - Use directly as a single HTML element or import and use as a Vue component. See [demo](https://knekki.github.io/#/spinners "Kenneth's Github page") and usage instructions.
 
 <table>
     <tbody>
@@ -22,10 +22,6 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
 </table>
 
 > More spinners coming soon...
-
-## Demo
-
-See [demo](https://knekki.github.io/#/spinners "Kenneth's Github page") and usage instructions.
 
 ## Installation
 
