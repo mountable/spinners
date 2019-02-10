@@ -25,7 +25,7 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
 
 ## Demo
 
-> Coming soon
+See [demo](https://knekki.github.io/#/spinners "Kenneth's Github page") and usage instructions.
 
 ## Installation
 
