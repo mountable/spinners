@@ -7,6 +7,9 @@ const pages = {
     },
     kSpinnerPulse: {
         entry: 'src/KSpinnerPulse.vue'
+    },
+    kSpinnerSwirl: {
+        entry: 'src/KSpinnerSwirl.vue'
     }
 }
 
