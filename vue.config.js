@@ -10,6 +10,9 @@ const pages = {
     },
     kSpinnerSwirl: {
         entry: 'src/KSpinnerSwirl.vue'
+    },
+    kSpinnerSignal: {
+        entry: 'src/KSpinnerSignal.vue'
     }
 }
 
