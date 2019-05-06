@@ -9,37 +9,43 @@ export default {
 </script>
 
 <style lang="scss">
-$duration: 1.25s;
-$size: 64px;
-$stroke-width: 0.075;
-
 .k-spinner--signal {
-    color: white;
-    font-size: $size;
+    --color: black;
+    --color-secondary: currentColor;
+    --duration: 1.25s;
+    --size: 64px;
+    --stroke-width: 0.075;
+
+    display: inline-flex;
+    color: var(--color);
+    font-size: var(--size);
     width: 1em;
     height: 1em;
+    max-width: 1em;
+    max-height: 1em;
     position: relative;
 
     &::before {
         @extend %pseudo-signal;
+        border: calc(var(--size) * var(--stroke-width)) solid currentColor;
     }
 
     &::after {
         @extend %pseudo-signal;
-        animation-delay: -($duration/2);
+        border: calc(var(--size) * var(--stroke-width)) solid currentColor;
+        animation-delay: calc((var(--duration) / -2));
     }
 }
 
 %pseudo-signal {
     content: '';
-    border: ($size * $stroke-width) solid currentColor;
     border-radius: 50%;
     height: 100%;
     width: 100%;
     position: absolute;
     animation-name: k-spinner-signal;
     animation-iteration-count: infinite;
-    animation-duration: $duration;
+    animation-duration: var(--duration);
     animation-timing-function: cubic-bezier(0, 0.2, 0.8, 1);
 }
 
@@ -52,6 +58,7 @@ $stroke-width: 0.075;
     to {
         opacity: 0;
         transform: scale(100%);
+        border-color: var(--color-secondary);
     }
 }
 </style>

@@ -9,17 +9,21 @@ export default {
 </script>
 
 <style lang="scss">
-$animation-duration: 2.0s;
-$size: 64px;
-
 .k-spinner--pulse {
+    --color: black;
+    --color-secondary: currentColor;
+    --duration: 2s;
+    --size: 64px;
+
     @extend %pulse;
-    box-shadow: inset 0 0 1em 0 currentColor;
+    box-shadow: inset 0 0 1em 0 var(--color-secondary);
     display: inline-flex;
-    font-size: $size;
-    color: white;
+    font-size: var(--size);
+    color: var(--color);
     width: 1em;
     height: 1em;
+    max-width: 1em;
+    max-height: 1em;
     position: relative;
 
     &::before {
@@ -30,7 +34,7 @@ $size: 64px;
     &::after {
         @extend %pulse;
         @extend %pseudo-pulse;
-        animation-delay: -($animation-duration/2);
+        animation-delay: calc(var(--duration) / -2);
     }
 }
 
@@ -48,7 +52,7 @@ $size: 64px;
     width: 100%;
     opacity: 0.6;
     animation-name: k-pulse;
-    animation-duration: $animation-duration;
+    animation-duration: var(--duration);
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -60,6 +64,7 @@ $size: 64px;
 
     50% {
         transform: scale(1);
+        color: var(--color-secondary);
     }
 }
 </style>

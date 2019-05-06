@@ -9,17 +9,21 @@ export default {
 </script>
 
 <style lang="scss">
-$animation-duration: 2.0s;
-$size: 64px;
 $shrink: 0.05em;
 
 .k-spinner--swirl {
+    --color: black;
+    --color-secondary: currentColor;
+    --size: 64px;
+
     @extend %swirl;
     display: inline-flex;
-    font-size: $size;
-    color: white;
+    font-size: var(--size);
+    color: var(--color);
     width: 1em;
     height: 1em;
+    max-width: 1em;
+    max-height: 1em;
     position: relative;
     animation-duration: 2s;
 
@@ -62,8 +66,13 @@ $shrink: 0.05em;
     from {
         transform: rotate(0deg);
     }
+
+    50% {
+        color: var(--color-secondary);
+    }
+
     to {
-        transform: rotate(360deg)
+        transform: rotate(360deg);
     }
 }
 </style>

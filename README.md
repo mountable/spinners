@@ -4,7 +4,7 @@
     <a href="https://www.npmjs.com/package/@knekk/spinners"><img src="https://img.shields.io/npm/l/@knekk/spinners.svg" alt="License"></a>
 </p>
 
-# Pure CSS spinners
+# Dev Components { Spinners }
 
 Pure CSS spinners made with simplicity in mind - Use directly as a single HTML element or import and use as a Vue component. See [demo](https://knekki.github.io/#/spinners "Kenneth's Github page") for more spinners and usage instructions.
 
@@ -23,13 +23,13 @@ Pure CSS spinners made with simplicity in mind - Use directly as a single HTML e
 
 ## Installation
 
-`@knekk/spinners` doesn't need much of a setup. Just link the provided CSS in your HTML head element (or install via `npm`), and use it as an single HTML element. You can also import it and use it as a Vue component.
+`@knekki/spinners` doesn't need much of a setup. Just link the provided CSS in your HTML head element (or install via `npm`), and use it as a single HTML element. You can also import it and use it as a Vue component.
 
 ### HTML
 
 ``` html
 <!-- Copy and paste the link below into your HTML head element -->
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.19/dist/kSpinners.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@knekk/spinners@0.0.20/dist/kSpinners.css">
 ```
 
 > **Tip:** This link will make all the spinners available to you. However, if you only want to use one of the spinners and care about filesize, it's recommended that you grab the CSS link specific to the spinner you choose. Swap `/kSpinners.css` part of the link with the name of the spinner. E.g if you want to use the `kSpinnerSpin` spinner. Change the link to `/kSpinnerSpin.css` etc.

@@ -13,11 +13,13 @@ $size: 64px;
 
 .k-spinner--spin {
     display: inline-block;
-    color: white;
+    color: black;
     font-size: $size;
     position: relative;
     width: 1em;
     height: 1em;
+    max-width: 1em;
+    max-height: 1em;
     border-radius: 50%;
     background-image: radial-gradient(circle at center, transparent 52%, currentColor 54%, currentColor 65%, transparent 67%);
     background-repeat: no-repeat;
