@@ -10,15 +10,15 @@ export default {
 
 <style lang="scss">
 .k-spinner--signal {
-    --color: black;
-    --color-secondary: currentColor;
-    --duration: 1.25s;
-    --size: 64px;
-    --stroke-width: 0.075;
+    --spinner-color: var(--color, black);
+    --spinner-color-secondary: var(--color-secondary ,currentColor);
+    --spinner-duration: 1.25s;
+    --spinner-size: 64px;
+    --spinner-stroke-width: 0.075;
 
     display: inline-flex;
-    color: var(--color);
-    font-size: var(--size);
+    color: var(--spinner-color);
+    font-size: var(--spinner-size);
     width: 1em;
     height: 1em;
     max-width: 1em;
@@ -27,13 +27,13 @@ export default {
 
     &::before {
         @extend %pseudo-signal;
-        border: calc(var(--size) * var(--stroke-width)) solid currentColor;
+        border: calc(var(--spinner-size) * var(--spinner-stroke-width)) solid currentColor;
     }
 
     &::after {
         @extend %pseudo-signal;
-        border: calc(var(--size) * var(--stroke-width)) solid currentColor;
-        animation-delay: calc((var(--duration) / -2));
+        border: calc(var(--spinner-size) * var(--spinner-stroke-width)) solid currentColor;
+        animation-delay: calc((var(--spinner-duration) / -2));
     }
 }
 
@@ -45,7 +45,7 @@ export default {
     position: absolute;
     animation-name: k-spinner-signal;
     animation-iteration-count: infinite;
-    animation-duration: var(--duration);
+    animation-duration: var(--spinner-duration);
     animation-timing-function: cubic-bezier(0, 0.2, 0.8, 1);
 }
 
@@ -58,7 +58,7 @@ export default {
     to {
         opacity: 0;
         transform: scale(100%);
-        border-color: var(--color-secondary);
+        border-color: var(--spinner-color-secondary);
     }
 }
 </style>

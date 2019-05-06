@@ -10,16 +10,16 @@ export default {
 
 <style lang="scss">
 .k-spinner--pulse {
-    --color: black;
-    --color-secondary: currentColor;
-    --duration: 2s;
-    --size: 64px;
+    --spinner-color: var(--color, black);
+    --spinner-color-secondary: var(--color-secondary ,currentColor);
+    --spinner-duration: 2s;
+    --spinner-size: 64px;
 
     @extend %pulse;
-    box-shadow: inset 0 0 1em 0 var(--color-secondary);
+    box-shadow: inset 0 0 1em 0 var(--spinner-color-secondary);
     display: inline-flex;
-    font-size: var(--size);
-    color: var(--color);
+    font-size: var(--spinner-size);
+    color: var(--spinner-color);
     width: 1em;
     height: 1em;
     max-width: 1em;
@@ -34,7 +34,7 @@ export default {
     &::after {
         @extend %pulse;
         @extend %pseudo-pulse;
-        animation-delay: calc(var(--duration) / -2);
+        animation-delay: calc(var(--spinner-duration) / -2);
     }
 }
 
@@ -52,7 +52,7 @@ export default {
     width: 100%;
     opacity: 0.6;
     animation-name: k-pulse;
-    animation-duration: var(--duration);
+    animation-duration: var(--spinner-duration);
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -64,7 +64,7 @@ export default {
 
     50% {
         transform: scale(1);
-        color: var(--color-secondary);
+        color: var(--spinner-color-secondary);
     }
 }
 </style>

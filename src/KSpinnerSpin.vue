@@ -9,12 +9,14 @@ export default {
 </script>
 
 <style lang="scss">
-$size: 64px;
-
 .k-spinner--spin {
+    --spinner-color: var(--color, black);
+    --spinner-color-secondary: var(--color-secondary ,currentColor);
+    --spinner-size: 64px;
+
     display: inline-block;
-    color: black;
-    font-size: $size;
+    color: var(--spinner-color);
+    font-size: var(--spinner-size);
     position: relative;
     width: 1em;
     height: 1em;

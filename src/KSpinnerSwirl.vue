@@ -12,14 +12,14 @@ export default {
 $shrink: 0.05em;
 
 .k-spinner--swirl {
-    --color: black;
-    --color-secondary: currentColor;
-    --size: 64px;
+    --spinner-color: var(--color, black);
+    --spinner-color-secondary: var(--color-secondary ,currentColor);
+    --spinner-size: 64px;
 
     @extend %swirl;
     display: inline-flex;
-    font-size: var(--size);
-    color: var(--color);
+    font-size: var(--spinner-size);
+    color: var(--spinner-color);
     width: 1em;
     height: 1em;
     max-width: 1em;
@@ -68,7 +68,7 @@ $shrink: 0.05em;
     }
 
     50% {
-        color: var(--color-secondary);
+        color: var(--spinner-color-secondary);
     }
 
     to {
