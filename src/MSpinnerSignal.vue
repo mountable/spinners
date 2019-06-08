@@ -1,15 +1,15 @@
 <template>
-    <i class="k-spinner--signal"></i>
+    <i class="m-spinner--signal"></i>
 </template>
 
 <script>
 export default {
-    name: 'k-spinner-signal'
+    name: 'm-spinner-signal'
 }
 </script>
 
 <style lang="scss">
-.k-spinner--signal {
+.m-spinner--signal {
     --spinner-color: var(--color, black);
     --spinner-color-secondary: var(--color-secondary ,currentColor);
     --spinner-duration: 1.25s;
@@ -43,13 +43,13 @@ export default {
     height: 100%;
     width: 100%;
     position: absolute;
-    animation-name: k-spinner-signal;
+    animation-name: m-spinner-signal;
     animation-iteration-count: infinite;
     animation-duration: var(--spinner-duration);
     animation-timing-function: cubic-bezier(0, 0.2, 0.8, 1);
 }
 
-@keyframes k-spinner-signal {
+@keyframes m-spinner-signal {
     from {
         opacity: 1;
         transform: scale(0);

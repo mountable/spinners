@@ -1,18 +1,18 @@
 const pages = {
-    kSpinners: {
+    mSpinners: {
         entry: 'src/index.js'
     },
-    kSpinnerSpin: {
-        entry: 'src/KSpinnerSpin.vue'
+    mSpinnerSpin: {
+        entry: 'src/MSpinnerSpin.vue'
     },
-    kSpinnerPulse: {
-        entry: 'src/KSpinnerPulse.vue'
+    mSpinnerPulse: {
+        entry: 'src/MSpinnerPulse.vue'
     },
-    kSpinnerSwirl: {
-        entry: 'src/KSpinnerSwirl.vue'
+    mSpinnerSwirl: {
+        entry: 'src/MSpinnerSwirl.vue'
     },
-    kSpinnerSignal: {
-        entry: 'src/KSpinnerSignal.vue'
+    mSpinnerSignal: {
+        entry: 'src/MSpinnerSignal.vue'
     }
 }
 
@@ -30,7 +30,7 @@ module.exports = {
             config.plugins.delete(`prefetch-${ page }`)
         })
 
-        // Expose @knekk/spinners version
+        // Expose @mountable/spinners version
         config.plugin('define')
             .tap(args => {
                 args[0]['process.env']['VERSION'] = JSON.stringify(require('./package.json').version)

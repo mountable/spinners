@@ -1,17 +1,17 @@
 <template>
-    <i class="k-spinner--swirl"></i>
+    <i class="m-spinner--swirl"></i>
 </template>
 
 <script>
 export default {
-    name: 'k-spinner-swirl'
+    name: 'm-spinner-swirl'
 }
 </script>
 
 <style lang="scss">
 $shrink: 0.05em;
 
-.k-spinner--swirl {
+.m-spinner--swirl {
     --spinner-color: var(--color, black);
     --spinner-color-secondary: var(--color-secondary ,currentColor);
     --spinner-size: 64px;
@@ -52,7 +52,7 @@ $shrink: 0.05em;
     border: .0333em solid transparent;
     border-radius: 50%;
     border-top-color: currentColor;
-    animation-name: k-swirl;
+    animation-name: m-spinner-swirl;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -62,7 +62,7 @@ $shrink: 0.05em;
     position: absolute;
 }
 
-@keyframes k-swirl {
+@keyframes m-spinner-swirl {
     from {
         transform: rotate(0deg);
     }

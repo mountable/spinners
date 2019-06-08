@@ -1,15 +1,15 @@
 <template>
-    <i class="k-spinner--pulse"></i>
+    <i class="m-spinner--pulse"></i>
 </template>
 
 <script>
 export default {
-    name: 'k-spinner-pulse'
+    name: 'm-spinner-pulse'
 }
 </script>
 
 <style lang="scss">
-.k-spinner--pulse {
+.m-spinner--pulse {
     --spinner-color: var(--color, black);
     --spinner-color-secondary: var(--color-secondary ,currentColor);
     --spinner-duration: 2s;
@@ -51,13 +51,13 @@ export default {
     height: 100%;
     width: 100%;
     opacity: 0.6;
-    animation-name: k-pulse;
+    animation-name: m-spinner-pulse;
     animation-duration: var(--spinner-duration);
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes k-pulse {
+@keyframes m-spinner-pulse {
     from, to {
         transform: scale(0);
     }

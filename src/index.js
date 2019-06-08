@@ -1,25 +1,25 @@
-import KSpinnerSpin from './KSpinnerSpin'
-import KSpinnerPulse from './KSpinnerPulse'
-import KSpinnerSwirl from './KSpinnerSwirl'
-import KSpinnerSignal from './KSpinnerSignal'
+// import MSpinnerSpin from './MSpinnerSpin'
+import MSpinnerPulse from './MSpinnerPulse'
+import MSpinnerSwirl from './MSpinnerSwirl'
+import MSpinnerSignal from './MSpinnerSignal'
 
 export { 
-    KSpinnerSpin, 
-    KSpinnerPulse,
-    KSpinnerSwirl,
-    KSpinnerSignal
+    // MSpinnerSpin, 
+    MSpinnerPulse,
+    MSpinnerSwirl,
+    MSpinnerSignal
 }
 
 export default {
-    KSpinnerSpin,
-    KSpinnerPulse,
-    KSpinnerSwirl,
-    KSpinnerSignal,
+    // MSpinnerSpin,
+    MSpinnerPulse,
+    MSpinnerSwirl,
+    MSpinnerSignal,
 
     install(Vue) {
-        Vue.component(KSpinnerSpin.name, KSpinnerSpin)
-        Vue.component(KSpinnerPulse.name, KSpinnerPulse)
-        Vue.component(KSpinnerSwirl.name, KSpinnerSwirl)
-        Vue.component(KSpinnerSignal.name, KSpinnerSignal)
+        // Vue.component(MSpinnerSpin.name, MSpinnerSpin)
+        Vue.component(MSpinnerPulse.name, MSpinnerPulse)
+        Vue.component(MSpinnerSwirl.name, MSpinnerSwirl)
+        Vue.component(MSpinnerSignal.name, MSpinnerSignal)
     }
 }
