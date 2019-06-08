@@ -36,7 +36,7 @@ npm install @mountable/spinners
 
 ``` html
 <!-- Copy and paste the link below into your HTML head element -->
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/@mountable/spinners@0.0.1/dist/mSpinners.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@mountable/spinners@0.0.24/dist/mSpinners.css">
 ```
 
 > **Tip:** This link will load all available spinners and is meant to use during development. To reduce filesize you should link directly to the spinner(s) you want to use (see [demo](https://mountable.dev/spinners "Mountable { Spinners }") for spinner specific installations) instead.
@@ -98,4 +98,4 @@ Use it in your templates:
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2019-present, Kenneth Aamås
+Copyright (c) 2019-present, [Kenneth Aamås](https://github.com/knekki "Kenneth's Github profile") 

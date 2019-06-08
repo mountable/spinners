@@ -1,6 +1,6 @@
 {
   "name": "@mountable/spinners",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "Pure CSS spinners made with simplicity in mind - Use directly as a single HTML element or import and use as a Vue component.",
   "repository": {
     "type": "git",
