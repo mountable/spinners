@@ -42,8 +42,8 @@ npm install @mountable/spinners
 > **Tip:** This link will load all available spinners and is meant to use during development. To reduce filesize you should link directly to the spinner(s) you want to use (see [demo](https://mountable.dev/spinners "Mountable { Spinners }") for spinner specific installations) instead.
 
 ``` html
-<!-- Copy and paste the spinner element where you want it in your HTML -->
-<i class="m-spinner--spin"></i>
+<!-- Copy and paste the spinner element where you want it in your HTML e.g: -->
+<i class="m-spinner--signal"></i>
 ```
 
 ### Vue.js
@@ -82,10 +82,10 @@ Use it in your templates:
 
 ``` html
 <!-- In SFC, string templates, and JSX -->
-<MSpinnerSpin/>
+<MSpinnerSignal/>
 
 <!-- Or in DOM templates -->
-<m-spinner-spin></m-spinner-spin>
+<m-spinner-signal></m-spinner-signal>
 ```
 
 
