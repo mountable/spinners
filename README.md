@@ -13,14 +13,14 @@ Informs the users about ongoing processes, or loading of content. The use of ani
 
 <table>
     <tbody>
-        <tr>
-            <td align="center">
+        <tr style="border:none">
+            <td align="center" style="border:none">
                 <img alt="Signal - Mountable spinners" src="https://media.giphy.com/media/PjZrCv7ZpQ3mo43gM6/giphy.gif">
             </td>
-            <td align="center">
+            <td align="center" style="border:none">
                 <img alt="Swirl - Mountable spinners" src="https://media.giphy.com/media/jOyc6HlUzRE9x5LdHK/giphy.gif">
             </td>
-            <td align="center">
+            <td align="center" style="border:none">
                 <img alt="Pulse - Mountable spinners" src="https://media.giphy.com/media/UrOfZHanvykUrbamLR/giphy.gif">
             </td>
         </tr>
