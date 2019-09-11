@@ -12,6 +12,7 @@ export default {
 .m-spinner--spin {
     --spinner-color: var(--color, black);
     --spinner-color-secondary: var(--color-secondary ,currentColor);
+    --spinner-duration: 6s;
     --spinner-size: 64px;
 
     display: inline-block;
@@ -28,7 +29,7 @@ export default {
 
     animation-name: m-spinner-spin;
     animation-timing-function: linear;
-    animation-duration: 6s;
+    animation-duration: var(--spinner-duration);
     animation-delay: -500ms;
     animation-iteration-count: infinite;
 }

@@ -14,6 +14,7 @@ $shrink: 0.05em;
 .m-spinner--swirl {
     --spinner-color: var(--color, black);
     --spinner-color-secondary: var(--color-secondary ,currentColor);
+    --spinner-duration: 2s;
     --spinner-size: 64px;
 
     @extend %swirl;
@@ -25,7 +26,7 @@ $shrink: 0.05em;
     max-width: 1em;
     max-height: 1em;
     position: relative;
-    animation-duration: 2s;
+    animation-duration: var(--spinner-duration);
 
     &::before {
         @extend %swirl;

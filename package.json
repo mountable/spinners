@@ -1,7 +1,7 @@
 {
   "name": "@mountable/spinners",
-  "version": "0.0.24",
-  "description": "Pure CSS spinners made with simplicity in mind - Use directly as a single HTML element or import and use as a Vue component.",
+  "version": "0.0.25",
+  "description": "Progress indicators expressing unspecified wait time.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mountable/spinners.git"
@@ -21,10 +21,10 @@
     "build": "vue-cli-service build"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.3.0",
-    "@vue/cli-service": "^3.3.1",
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
     "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^7.3.1",
     "vue-template-compiler": "^2.5.22"
   }
 }
