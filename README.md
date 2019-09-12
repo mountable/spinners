@@ -31,10 +31,7 @@ Informs the users about ongoing processes, or loading of content. The use of ani
 
 ## Get started
 
-See documentation and live examples [here](https://mountable.dev/spinners "Mountable loading spinners"). The principle of usage instruction goes as follows:
-
-1. Link the provided CSS for your spinner in your HTML `<head>` (or install via `npm`)
-2. Start using it by adding the single HTML element in your templates.
+See documentation and live examples [here](https://mountable.dev/spinners "Mountable loading spinners").
 
 ``` bash
 npm install @mountable/spinners

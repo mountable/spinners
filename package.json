@@ -1,7 +1,7 @@
 {
   "name": "@mountable/spinners",
-  "version": "0.0.25",
-  "description": "Progress indicators expressing unspecified wait time.",
+  "version": "0.0.26",
+  "description": "Loading spinners - Progress indicators expressing unspecified wait time.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mountable/spinners.git"
